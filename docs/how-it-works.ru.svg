@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 620" role="img" aria-labelledby="t d">
+  <title id="t">Как устроен undertow</title>
+  <desc id="d">Вопрос пользователя, выбор skill по description, пять skills, справочники references и агент detection-auditor</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0c0d"/><stop offset="1" stop-color="#121315"/></linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#b48cf2"/></marker>
+  </defs>
+  <rect width="1280" height="620" rx="24" fill="url(#bg)"/>
+  <rect x="460" y="36" width="360" height="56" rx="12" fill="#17181b" stroke="#2a2c31" stroke-width="1.5"/>
+  <text x="640" y="71" text-anchor="middle" fill="#ffffff" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600">Вопрос пользователя</text>
+  <line x1="640" y1="92" x2="640" y2="128" stroke="#b48cf2" stroke-width="1.8" marker-end="url(#ar)"/>
+  <rect x="400" y="130" width="480" height="64" rx="12" fill="#17181b" stroke="url(#acc)" stroke-width="2"/>
+  <text x="640" y="158" text-anchor="middle" fill="#ffffff" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600">Claude выбирает skill</text>
+  <text x="640" y="182" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">по полю description в SKILL.md</text>
+  <line x1="150" y1="226" x2="1130" y2="226" stroke="#b48cf2" stroke-width="1.8"/>
+  <line x1="640" y1="194" x2="640" y2="226" stroke="#b48cf2" stroke-width="1.8"/>
+  <line x1="150.0" y1="226" x2="150.0" y2="260" stroke="#b48cf2" stroke-width="1.8" marker-end="url(#ar)"/>
+  <rect x="40" y="262" width="220" height="124" rx="12" fill="#17181b" stroke="#2a2c31" stroke-width="1.5"/>
+  <text x="150.0" y="302" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="600">network</text>
+  <text x="150.0" y="336" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">OSI, TCP/IP, DNS,</text>
+  <text x="150.0" y="360" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">NAT, MTU, TLS, CDN</text>
+  <line x1="395.0" y1="226" x2="395.0" y2="260" stroke="#b48cf2" stroke-width="1.8" marker-end="url(#ar)"/>
+  <rect x="285" y="262" width="220" height="124" rx="12" fill="#17181b" stroke="#2a2c31" stroke-width="1.5"/>
+  <text x="395.0" y="302" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="600">remnawave</text>
+  <text x="395.0" y="336" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">Panel и Node 3.x,</text>
+  <text x="395.0" y="360" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">.env, подписки, API</text>
+  <line x1="640.0" y1="226" x2="640.0" y2="260" stroke="#b48cf2" stroke-width="1.8" marker-end="url(#ar)"/>
+  <rect x="530" y="262" width="220" height="124" rx="12" fill="#17181b" stroke="#2a2c31" stroke-width="1.5"/>
+  <text x="640.0" y="302" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="600">cloudflare</text>
+  <text x="640.0" y="336" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">DNS, SSL/TLS, порты,</text>
+  <text x="640.0" y="360" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">Tunnel, Zero Trust</text>
+  <line x1="885.0" y1="226" x2="885.0" y2="260" stroke="#b48cf2" stroke-width="1.8" marker-end="url(#ar)"/>
+  <rect x="775" y="262" width="220" height="124" rx="12" fill="#17181b" stroke="#2a2c31" stroke-width="1.5"/>
+  <text x="885.0" y="302" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="600">architecture</text>
+  <text x="885.0" y="336" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">DPI и выбор схемы:</text>
+  <text x="885.0" y="360" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">direct, cascade, CDN</text>
+  <line x1="1130.0" y1="226" x2="1130.0" y2="260" stroke="#b48cf2" stroke-width="1.8" marker-end="url(#ar)"/>
+  <rect x="1020" y="262" width="220" height="124" rx="12" fill="#17181b" stroke="#2a2c31" stroke-width="1.5"/>
+  <text x="1130.0" y="302" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="600">detection-audit</text>
+  <text x="1130.0" y="336" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">признаки выявления</text>
+  <text x="1130.0" y="360" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">VPN/Proxy</text>
+  <text x="885" y="414" text-anchor="middle" fill="#a99fbd" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400">опирается на remnawave,</text>
+  <text x="885" y="432" text-anchor="middle" fill="#a99fbd" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400">cloudflare и detection-audit</text>
+  <line x1="150.0" y1="386" x2="150.0" y2="468" stroke="#b48cf2" stroke-width="1.8" marker-end="url(#ar)"/>
+  <line x1="395.0" y1="386" x2="395.0" y2="468" stroke="#b48cf2" stroke-width="1.8" marker-end="url(#ar)"/>
+  <line x1="640.0" y1="386" x2="640.0" y2="468" stroke="#b48cf2" stroke-width="1.8" marker-end="url(#ar)"/>
+  <line x1="885.0" y1="440" x2="885.0" y2="468" stroke="#b48cf2" stroke-width="1.8" marker-end="url(#ar)"/>
+  <rect x="40" y="470" width="955" height="96" rx="12" fill="#17181b" stroke="url(#acc)" stroke-width="2"/>
+  <text x="517" y="510" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="600">references/*.md</text>
+  <text x="517" y="540" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">справочники; Claude читает только те, что нужны для ответа</text>
+  <line x1="1130" y1="386" x2="1130" y2="468" stroke="#b48cf2" stroke-width="1.8" stroke-dasharray="5 5" marker-end="url(#ar)"/>
+  <text x="1142" y="432" text-anchor="start" fill="#a99fbd" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400">независимый</text>
+  <text x="1142" y="450" text-anchor="start" fill="#a99fbd" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400">аудит</text>
+  <rect x="1020" y="470" width="220" height="96" rx="12" fill="#17181b" stroke="#2a2c31" stroke-width="1.5"/>
+  <text x="1130" y="506" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="600">detection-auditor</text>
+  <text x="1130" y="534" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400">агент, только локальные</text>
+  <text x="1130" y="553" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400">материалы skill</text>
+</svg>

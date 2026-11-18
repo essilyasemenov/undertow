@@ -1,0 +1,22 @@
+{
+  "name": "undertow",
+  "description": "Knowledge base in English and Russian: Remnawave, networking, Cloudflare, censorship-resistant network architecture and VPN detection-signal audit.",
+  "owner": {
+    "name": "essilyasemenov",
+    "url": "https://github.com/essilyasemenov"
+  },
+  "plugins": [
+    {
+      "name": "undertow-en",
+      "description": "Remnawave 3.x, networking fundamentals, Cloudflare, VPN topologies and detection-signal audit: official and bundled sources only.",
+      "source": "./plugins/undertow-en",
+      "category": "infrastructure"
+    },
+    {
+      "name": "undertow-ru",
+      "description": "Remnawave 3.x, сетевые основы, Cloudflare, VPN-топологии и аудит признаков детекта: только по официальным и локальным источникам.",
+      "source": "./plugins/undertow-ru",
+      "category": "infrastructure"
+    }
+  ]
+}

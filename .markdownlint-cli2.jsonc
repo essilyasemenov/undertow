@@ -1,0 +1,14 @@
+{
+  "config": {
+    // Line wrapping is left to the viewer; hard-wrapped Russian prose is harder to edit and review.
+    "MD013": false
+  },
+  // .trail/ is a local tool cache, not part of the repo.
+  "gitignore": true,
+  "ignores": [
+    // Verbatim OCR copy of the source document, checked word by word against the PDF; its structure is kept as is.
+    "**/detection-audit/sources/**",
+    // Eval cases use the claude plugin eval format (frontmatter + bare prompt or rubric), not documentation.
+    "**/evals/**"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "undertow-en",
+  "version": "1.0.0",
+  "description": "Remnawave 3.x, networking fundamentals, Cloudflare, VPN topologies and detection-signal audit: official and bundled sources only.",
+  "author": {
+    "name": "essilyasemenov",
+    "url": "https://github.com/essilyasemenov"
+  },
+  "homepage": "https://github.com/essilyasemenov/undertow",
+  "repository": "https://github.com/essilyasemenov/undertow",
+  "license": "MIT",
+  "keywords": [
+    "remnawave",
+    "xray",
+    "vpn",
+    "networking",
+    "cloudflare",
+    "detection-audit"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "undertow (EN)",
+        "shortDescription": "Remnawave 3.x, networking, Cloudflare, architecture and VPN detection audit",
+        "longDescription": "Knowledge base for designing, deploying and auditing VPN infrastructure on Remnawave: installing and upgrading Panel and Node, Config Profiles and cascades, subscriptions and the API, networking fundamentals, publishing through Cloudflare, choosing a topology and checking a setup for detection signals. Official sources only.",
+        "developerName": "essilyasemenov",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/essilyasemenov/undertow",
+        "defaultPrompt": [
+          "I'm installing Remnawave Panel. Which .env variables do I need to change?",
+          "I need a cascade: one node in Russia and one in the Netherlands. Which is better on the middle hop: iptables, HAProxy or Xray?"
+        ]
+      }
+    }
+  }
+}

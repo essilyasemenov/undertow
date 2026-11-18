@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "undertow-ru",
+  "version": "1.0.0",
+  "description": "Remnawave 3.x, сетевые основы, Cloudflare, VPN-топологии и аудит признаков детекта: только по официальным и локальным источникам.",
+  "author": {
+    "name": "essilyasemenov",
+    "url": "https://github.com/essilyasemenov"
+  },
+  "homepage": "https://github.com/essilyasemenov/undertow",
+  "repository": "https://github.com/essilyasemenov/undertow",
+  "license": "MIT",
+  "keywords": [
+    "remnawave",
+    "xray",
+    "vpn",
+    "networking",
+    "cloudflare",
+    "detection-audit"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "undertow (RU)",
+        "shortDescription": "Remnawave 3.x, сети, Cloudflare, архитектура и аудит выявления VPN",
+        "longDescription": "Русскоязычная база знаний для проектирования, развёртывания и аудита VPN-инфраструктуры на Remnawave: установка и обновление Panel и Node, Config Profiles и каскады, подписки и API, сетевые основы, публикация через Cloudflare, выбор топологии и проверка схемы на признаки выявления. Только по официальным источникам.",
+        "developerName": "essilyasemenov",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/essilyasemenov/undertow",
+        "defaultPrompt": [
+          "Ставлю Remnawave Panel, какие переменные в .env поменять?",
+          "Нужен каскад: нода в РФ и нода в Нидерландах. Как лучше: iptables, HAProxy или Xray на промежуточной?"
+        ]
+      }
+    }
+  }
+}

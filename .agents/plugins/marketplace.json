@@ -1,0 +1,32 @@
+{
+  "name": "undertow",
+  "interface": {
+    "displayName": "undertow"
+  },
+  "plugins": [
+    {
+      "name": "undertow-en",
+      "source": {
+        "source": "local",
+        "path": "./plugins/undertow-en"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "undertow-ru",
+      "source": {
+        "source": "local",
+        "path": "./plugins/undertow-ru"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

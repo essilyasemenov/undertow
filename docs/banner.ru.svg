@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
+  <title id="t">undertow</title>
+  <desc id="d">Плагин Claude Code: база знаний по Remnawave, сетям, Cloudflare и устойчивым к блокировкам схемам</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0c0d"/>
+      <stop offset="1" stop-color="#121315"/>
+    </linearGradient>
+    <linearGradient id="w" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset=".35" stop-color="#8b5cf6"/>
+      <stop offset=".65" stop-color="#ec4899"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#w)" stroke-linecap="round">
+    <path d="M0 236 C160 196 320 276 480 236 S800 196 960 236 1200 276 1280 236" stroke-width="3" opacity=".9"/>
+    <path d="M0 262 C160 222 320 302 480 262 S800 222 960 262 1200 302 1280 262" stroke-width="2" opacity=".55"/>
+    <path d="M0 288 C160 248 320 328 480 288 S800 248 960 288 1200 328 1280 288" stroke-width="1.5" opacity=".3"/>
+  </g>
+  <text x="640" y="138" text-anchor="middle" fill="#ffffff" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="88" font-weight="700" letter-spacing="2">undertow</text>
+  <text x="640" y="186" text-anchor="middle" fill="#d6cfe6" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26">Remnawave · Сети · Cloudflare · Архитектура · Аудит выявления</text>
+</svg>

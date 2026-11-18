@@ -1,0 +1,11 @@
+.DS_Store
+.serena/
+.trail/
+.obsidian/
+# Local eval suite and runner: kept on the maintainer machine, not published
+evals/
+scripts/*
+!scripts/check-sync.py
+# Local Claude Code instructions and project skills
+CLAUDE.md
+.claude/

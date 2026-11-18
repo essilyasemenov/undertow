@@ -1,0 +1,12 @@
+{
+  "name": "undertow-ru",
+  "version": "1.0.0",
+  "description": "Remnawave 3.x, сетевые основы, Cloudflare, VPN-топологии и аудит признаков детекта: только по официальным и локальным источникам.",
+  "author": {
+    "name": "essilyasemenov",
+    "url": "https://github.com/essilyasemenov"
+  },
+  "repository": "https://github.com/essilyasemenov/undertow",
+  "license": "MIT",
+  "keywords": ["remnawave", "xray", "vpn", "networking", "cloudflare", "detection-audit"]
+}
